@@ -3,15 +3,15 @@
 
 @font-face {
     font-family: title-font;
-    src: url(/title.otf);
+    src: url(title.otf);
 }
 
 @font-face {
     font-family: title-parag;
-    src: url(/paragrph.otf);
+    src: url(paragrph.otf);
 }
 body{
-    background-image: url("/166723967263600ef805be7.webp");
+    background-image: url("166723967263600ef805be7.webp");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
@@ -74,7 +74,7 @@ main button{
 }
 header button::after{
     content: "";
-    background-image: url("/icon-whatsapp.png");
+    background-image: url("icon-whatsapp.png");
     position:absolute;
     display: block;
     top: 50%;
@@ -86,7 +86,7 @@ header button::after{
 }
 main button::after{
     content: "";
-    background-image: url("/icon-whatsapp.png");
+    background-image: url("icon-whatsapp.png");
     position:absolute;
     display: block;
     top: 50%;
@@ -143,7 +143,7 @@ main h3{
 @media (max-width: 600px)
 {
 body{
-    background-image: url("/166723967263600ef805be7.webp");
+    background-image: url("166723967263600ef805be7.webp");
     background-repeat: no-repeat;
     background-size: 189%;
     background-position:0 500px;
